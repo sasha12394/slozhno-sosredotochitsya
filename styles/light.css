@@ -22,7 +22,7 @@
   --title-color:#353430;
 }
  .theme_light .header__rec {
-  color: transparent;
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -41,17 +41,5 @@
   .header__rec {
     display: none;
   }
- 
 }
-
-@media (width>=768px) {
-  :root {
-  --main-padding: 20px;
-  --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
-  }
-}
-
-/*.theme_auto .header__rec {
-  display: none;
-}*/
 
