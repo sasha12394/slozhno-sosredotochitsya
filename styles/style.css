@@ -136,7 +136,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--additional-color); 
+  border-bottom: 1px solid var(--additional-color);
 }
 
 .header__theme-menu-button:hover {
@@ -315,7 +315,7 @@
 
 /* width>=768px and width<1024px */
 
-@media (width>=768px) and (width<1024px){
+@media (width>=768px) and (width<1024px) {
     
   .header__title {
     margin-left: -3%;
@@ -325,7 +325,7 @@
     gap: 162px;
   }
 
-  .header__theme-menu{
+  .header__theme-menu {
     padding: 10px 0;
   }
 }
