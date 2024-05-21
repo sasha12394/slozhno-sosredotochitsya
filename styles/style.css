@@ -303,6 +303,10 @@
   .image_street {
     grid-column: 2/4;
   }
+  :root {
+    --main-padding: 20px;
+    --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+    }
 
   .main__menu-list_with_columns {
     grid-column: 1/3;

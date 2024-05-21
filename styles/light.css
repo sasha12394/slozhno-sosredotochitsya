@@ -15,8 +15,6 @@
   --text-color: #353430;
   --main-title-color: #FFC2E6;
   --background-image: url("../images/cover-image-light.png");
-  --main-padding: 10px;
-  --title-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   --additional-color: #353430;
   --background-color: #FFF1F7;
   --title-color:#353430;
@@ -32,8 +30,6 @@
     --text-color: #353430;
     --main-title-color: #FFC2E6;
     --background-image: url("../images/cover-image-light.png");
-    --main-padding: 10px;
-    --title-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
     --additional-color: #353430;
     --background-color: #FFF1F7;
     --title-color:#353430;
