@@ -10,33 +10,34 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
-  :root .theme_light {
+:root .theme_light {
   --main-font: "IBM Plex mono", monospace;
-  --accent-color: #FF8DCB;
+  --accent-color: #ff8dcb;
   --text-color: #353430;
-  --main-title-color: #FFC2E6;
+  --main-title-color: #ffc2e6;
   --background-image: url("../images/cover-image-light.png");
   --additional-color: #353430;
-  --background-color: #FFF1F7;
-  --title-color:#353430;
+  --background-color: #fff1f7;
+  --title-color: #353430;
 }
- .theme_light .header__rec {
+
+.theme_light .header__rec {
   display: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --main-font: "IBM Plex mono", monospace;
-    --accent-color: #FF8DCB;
+    --accent-color: #ff8dcb;
     --text-color: #353430;
-    --main-title-color: #FFC2E6;
+    --main-title-color: #ffc2e6;
     --background-image: url("../images/cover-image-light.png");
     --additional-color: #353430;
-    --background-color: #FFF1F7;
-    --title-color:#353430;
+    --background-color: #fff1f7;
+    --title-color: #353430;
   }
+  
   .header__rec {
     display: none;
   }
 }
-
